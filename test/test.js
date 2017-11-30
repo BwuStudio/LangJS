@@ -1,7 +1,7 @@
-const { Cons, cdr, car, isNull, isPair } = require('./scheme/cons')
+const { Cons, cdr, car, isNull, isPair } = require('../scheme/cons')
 const { List,push,pop,unshift,shift ,getFirst,getLast} = require('./scheme/list')
-const { map, forEach, filter, accumulate } = require('./scheme/method')
-const { add, sub, div, mul, rem , isEq } = require('./scheme/calcu')
+const { map, forEach, filter, accumulate } = require('../scheme/method')
+const { add, sub, div, mul, rem , isEq } = require('./.scheme/calcu')
 
 // console.log(
 //     accumulate(
