@@ -1,6 +1,4 @@
-require("./css/app")
-
-require("./test")
+import './index.js'
 
 let str = "Hello world!"
 
